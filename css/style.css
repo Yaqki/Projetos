@@ -1,0 +1,522 @@
+body {
+    background: #17161e;
+    font-family: Poppins, sans-serif;
+    white-space: nowrap;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1280px;
+    padding: 8px 16px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Uno-logo {
+    margin-right: 50px;
+}
+.Menu-meio ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 50px;
+    margin-left: 100px;
+    font-size: 15px;
+    list-style-type: none;
+}
+.Menu-direito {
+    margin-left: 200px;
+}
+button {
+    cursor: pointer;
+}
+.Entrar {
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #17161e;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    color: white;
+    width: 120px;
+    height: 38px;
+    font-size: 16px;
+}
+.Entrar:hover {
+    background-color: red;
+    border: 1px solid red;
+}
+.Cadastro {
+    background-color: #17161e;
+    border: none;
+    width: 120px;
+    height: 38px;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.Cadastro:hover {
+    color: red;
+}
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+.Container-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1687.5px;
+    padding: 8px 16px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Card-principal {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px 628.48px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin: 1px 103.75px;
+    padding: 64px 0px 0px;
+    margin-left: 200px;
+}
+.Texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Texto h1 {
+    font-size: 55px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.Texto p {
+    font-size: 22px;
+    font-style: normal;
+}
+.Botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+.Botoes a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button1 {
+    border: none;
+    border: 1px solid black;
+    background-color: rgb(255, 60, 60);
+    color: white;
+    width: 190px;
+    height: 55px;
+    font-size: 18px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.button1:hover {
+    color: black;
+    background-color: #fff;
+}
+.button2 {
+    border: none;
+    border: 1px solid white;
+    background-color: #17161e;
+    color: white;
+    width: 240px;
+    height: 55px;
+    font-size: 18px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.button2:hover {
+    color: black;
+    background-color: #fff;
+}
+.Uno-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Uno-card:before { /* EFEITO AZUL DO UNO CARD */
+    content: "";
+    position: relative;
+    width: 150px;
+    height: 150px;
+    bottom: 140px;
+    left: 220px;
+    border-radius: 99px;
+    margin-right: 80px;
+    background: #2f80ed;
+    filter: blur(70px);
+    z-index: -2;
+}
+.Uno-card::after { /* EFEITO VERMELHO DO UNO CARD */
+    content: "";
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 170px;
+    left: -140px;
+    border-radius: 99px;
+    margin-right: 80px;
+    background: #eb5757cc;
+    filter: blur(70px);
+    z-index: -2;
+}
+.Dados .Carregando{
+     margin: 0 auto;
+     display: flex;
+     padding-top: 50px;
+     justify-content: center;
+     color: #fff;
+     font-size: 30px;
+    
+}
+.Segundo-container {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Segundo-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 0;
+}
+.Segundo-card h1 {
+    font-size: 38px;
+    font-weight: bold;
+    font-style: inherit;
+}
+.Segundo-card p {
+    font-size: 25px;
+}
+.Cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 180px;
+    padding: 50px;
+}
+.Cards::before { /* EFEITOS GRADIENT */
+    content: "";
+    position: absolute;
+    background: linear-gradient(94deg, #9b51e0 2.84%, #3081ed 99.18%);
+    height: 250px;
+    bottom: 0;
+    top: 950px;
+    max-width: 1280px;
+    width: 250vh;
+    transform: translate(50px);
+    border-radius: 99px;
+    margin-right: 80px;
+    filter: blur(70px);
+    z-index: -1;
+}
+.card-svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.card-svg span {
+    font-size: 15px;
+}
+.svg {
+    border: none;
+    padding: 40px;
+    border-radius: 15px;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 40px;
+    border-radius: 26px;
+    background: #ffffff17;
+    box-shadow: -3.013px 3.013px 3.013px #ffffff63 inset, 2.01px -2.01px 20px #d6d6d62b inset;
+    -webkit-backdrop-filter: blur(37.21466827392578px);
+    backdrop-filter: blur(37.21466827392578px);
+}
+.Terceiro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.Terceiro-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.cabecalho {
+    display: flex;
+    padding: 30px;
+    gap: 800px;
+}
+h3 {
+    color: white;
+    font-size: 32px
+}
+.btn-filtrar {
+    font-size: 18px;
+    color: #fff;
+    background-color: #ed1c24;
+    width: 130px;
+    height: 45px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.btn-filtrar:hover {
+    background-color: white;
+    color: #ed1c24;
+}
+a {
+    text-decoration: none;
+}
+.section1 {
+    display: flex;
+}
+.card-uno {
+    padding: 16px;
+    border-radius: 12px;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+} 
+.imagem-uno {
+    width: 100%;
+    border-radius: 12px;
+    background-color: white;
+}
+.card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.card-titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.card-titulo h3 {
+    font-size: 20px;
+}
+.preco {
+    font-weight: bold;
+    display: flex;
+}
+.card-tempo-btn {
+    border-top: 1px solid #fff;
+    padding-top: 8px;
+    font-size: 14px;
+    color: #cfcfcf;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.card-tempo-btn p {
+    color: rgb(209, 209, 209);
+}
+.card-tempo-btn span {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.btn-comprar {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 110px;
+    height: 35px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+.btn-comprar:hover {
+    background-color: white;
+    color: #121017;
+}
+.section2 {
+    display: flex;
+}
+.img-uno {
+    width: 300px;
+    opacity: 1;
+}
+.Ver-mais {
+    padding: 64px 0;
+    display: flex;
+    justify-content: center;
+}
+.button-ver-mais {
+    display: flex
+}
+footer {
+    display: block;
+    unicode-bidi: isolate;
+}
+.Ver {
+    background-color: #17161e;
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.Ver:hover {
+    color: black;
+    background-color: white;
+}
+.Ver-mais a {
+    padding: 12px 40px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 10px;
+}
+.footer-wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.footer-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 64px;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+.footer-descricao {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    max-width: 40ch;
+}
+.footer-novo-texto {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    max-width: 45ch;
+    padding-bottom: 16px;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+.form-card {
+    position: relative;
+}
+.input-email {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 1.5rem 1rem;
+    color: #a9afbb;
+    background-color: #282828;
+    border: none;
+    border-radius: 10px;
+}
+.button-wrapper {
+    padding-right: .75rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+.button-input {
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff0008;
+    border-color: transparent;
+    padding: 12px 32px;
+    border-radius: 10px;
+    transition: .5s;
+}
+.footer-baixo {
+    border-top: 2px solid #fff;
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lista-footer {
+    display: flex;
+    gap: 8px;
+    list-style: none; /* <-- Isso remove os pontinhos */
+    margin: 0;
+    padding: 0;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+.footer-baixo 
+div p {
+    color: #828282;
+    font-weight: 300;
+    font-size: 16px;
+}
+.div p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
